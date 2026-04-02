@@ -87,6 +87,9 @@ https://github.com/olafchou/stock-catalyst-hunter 帮我安装一下这个skill
 
 ```text
 这条新闻利好哪些A股：美加墨世界杯赛程出炉，揭幕战将于6月12日3点举行。
+```
+
+```text
 这消息对应什么题材股：中东冲突升级，国际油价盘中拉升。
 ```
 
@@ -94,5 +97,8 @@ https://github.com/olafchou/stock-catalyst-hunter 帮我安装一下这个skill
 
 ```text
 帮我看看这张图会影响哪些A股股票。
+```
+
+```text
 这张截图会带动哪些A股？帮我直接找相关题材和个股。
 ```
