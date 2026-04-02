@@ -36,39 +36,9 @@
 
 ## 安装方式
 
-### 方式 1：通过 GitHub 安装
+### 方式 1：通过 SkillHub 安装
 
-适合想手动安装、调试或二次修改的用户。
-
-1. 克隆仓库：
-
-```bash
-git clone https://github.com/olafchou/ticai-lieshou.git
-cd ticai-lieshou
-```
-
-2. 把技能目录复制到本地 skills 目录：
-
-```bash
-mkdir -p ~/.codex/skills
-cp -R ./ticai-lieshou ~/.codex/skills/ticai-lieshou
-```
-
-3. 重启你的 agent 环境，或重新加载 skills。
-
-4. 如果你使用的是龙虾 / OpenClaw，也可以不手动复制目录，而是在技能管理页面直接导入下面这个目录或 zip：
-
-```text
-ticai-lieshou/
-```
-
-或
-
-```text
-ticai-lieshou-1.0.0.zip
-```
-
-### 方式 2：通过 SkillHub 安装
+如果你在龙虾 / OpenClaw 里使用技能，优先用这一种。
 
 可以直接在 SkillHub 安装：
 
@@ -79,9 +49,38 @@ ticai-lieshou-1.0.0.zip
 - `题材猎手`
 - `ticai-lieshou`
 
-如果你在龙虾 / OpenClaw 里通过 SkillHub 同步技能，安装后就可以直接使用。
+如果你的龙虾 / OpenClaw 客户端支持 SkillHub 安装或同步，安装后就可以直接使用。
 
-### 安装后怎么触发
+### 方式 2：通过 GitHub 手动安装
+
+适合想自己维护、调试或二次修改的用户。
+
+根据 OpenClaw 官方文档，技能可以放到以下目录之一：
+
+- 当前工作区的 `skills/`
+- `~/.openclaw/skills/`
+- `~/.agents/skills/`
+- 当前工作区的 `.agents/skills/`
+
+安装步骤：
+
+1. 克隆仓库：
+
+```bash
+git clone https://github.com/olafchou/ticai-lieshou.git
+cd ticai-lieshou
+```
+
+2. 把 `ticai-lieshou/` 目录复制到你的 OpenClaw 技能目录，例如：
+
+```bash
+mkdir -p ~/.openclaw/skills
+cp -R ./ticai-lieshou ~/.openclaw/skills/ticai-lieshou
+```
+
+3. 重新启动会话，或重新加载 skills，让新技能出现在当前环境里。
+
+### 安装后怎么使用
 
 安装完成后，用这类意图触发：
 
@@ -140,6 +139,14 @@ ticai-lieshou-1.0.0.zip
 - 图片输入分析模板
 - 搜索失败降级策略
 - 多个示例输入输出
+
+当前已发布平台：
+
+- SkillHub
+
+当前未发布平台：
+
+- ClawHub
 
 后续可以继续补：
 
