@@ -70,21 +70,14 @@ ticai-lieshou-1.0.0.zip
 
 ### 方式 2：通过 SkillHub 安装
 
-`题材猎手` 已经上传到 SkillHub 并通过审核。
+可以直接在 SkillHub 安装：
 
-安装时直接在 SkillHub 搜索：
+[题材猎手 - SkillHub](https://skillhub.tencent.com/skills/ticai-lieshou)
 
-```text
-题材猎手
-```
+也可以在 SkillHub 搜索：
 
-或使用 slug：
-
-```text
-ticai-lieshou
-```
-
-找到后直接点击安装或添加到技能列表即可。
+- `题材猎手`
+- `ticai-lieshou`
 
 如果你在龙虾 / OpenClaw 里通过 SkillHub 同步技能，安装后就可以直接使用。
 
